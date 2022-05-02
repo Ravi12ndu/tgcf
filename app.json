@@ -4,7 +4,7 @@
   "description": "The ultimate tool to automate telegram message forwarding. To learn more visit https://github.com/aahnik/tgcf/wiki/Deploy-to-Heroku",
   "keywords": ["telegram", "forwarding", "automation"],
   "website": "https://aahnik.dev",
-  "repository": "https://github.com/aahnik/tgcf",
+  "repository": "https://github.com/Ravi12ndu/tgcf",
   "logo": "https://user-images.githubusercontent.com/66209958/115183360-3fa4d500-a0f9-11eb-9c0f-c5ed03a9ae17.png",
   "env": {
     "API_ID": {
@@ -30,7 +30,7 @@
     "BOT_TOKEN": {
       "description": "(Optional) Put your bot token only if you are running tgcf live with a bot account. To create a new bot, go to @BotFather in Telegram.",
       "value": "",
-      "required": false
+      "required": true
     },
     "SESSION_STRING": {
       "description": "(Optional) Put this, only if you are using your user account. Generate your session string from here https://replit.com/@aahnik/tg-login. This is NOT required if you are using a bot account.",
